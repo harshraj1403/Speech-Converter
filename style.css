@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Anton&family=Archivo+Black&family=Arvo&family=Bree+Serif&family=Comfortaa&family=DynaPuff:wght@600&family=Fjalla+One&family=Gentium+Plus:ital@1&family=Kanit:ital,wght@0,200;1,100&family=Kdam+Thmor+Pro&family=Libre+Baskerville&family=Lobster&family=Noto+Serif:ital@0;1&family=Nuosu+SIL&family=Oswald:wght@300;400&family=PT+Serif:wght@700&family=Playfair+Display+SC&family=Playfair+Display:wght@500&family=Righteous&family=Roboto+Slab:wght@400;500&family=Rubik+Dirt&family=Rubik+Maze&family=Tai+Heritage+Pro&family=Tapestry&family=Tiro+Gurmukhi&family=Varela+Round&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(254, 148, 42);
+    background-image: url('https://www.teahub.io/photos/full/52-526204_4k-hd-wallpapers-technology.jpg');
+    background-repeat: no-repeat;
+}
+.wrapper{
+    width: 370px;
+    border-color: rgb(236, 133, 133);
+    padding: 25px 30px;
+    border-radius: 13px;
+}
+.wrapper header{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+
+}
+.wrapper form{
+    margin: 35px 0px 20px;
+}
+form.row{
+    display:flex;
+    flex-direction: column;
+}
+form.roe label{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+form :where(textarea,select,button){
+    outline:none;
+    width:100%;
+    border: none;
+    border-radius: 8px;
+}
+form .row textarea{
+    resize:none ;
+    height: 150px;
+    padding: 8px 10px ;
+    border: 2px solid rgba(0, 0, 0, 0.78);
+    font-size:16px;
+}
+form .row .outer{
+    height: 49px;
+    border:2px solid rgb(6, 0, 0);
+    display: flex;
+    padding: 0px 10px;
+    align-items: center;
+    border-radius: 6px;
+}
+form button{
+    font-size: 17px;
+    height: 52px;
+    margin-top:10px ;
+    color: rgb(0, 3, 3);
+    font-size: 17px;
+    cursor: pointer;
+    background-color: rgb(244, 121, 77);
+    font-family: 'PT Serif', serif;
+}
+form .row select{
+    font-size: 14px;
+}
